@@ -1,0 +1,22 @@
+Things this Program does:
+
+1. Has preset "bank accounts" that have preset account numbers and PINs. Every account has a random amount set.
+2. User enters account number and corresponding PIN to access the account.
+  a. Accounts have sub-accounts. ie. Checking, Saving, etc.
+3. User selects a sub-account and is asked about what kind of transaction he/she wants.
+  a. User has option to withdraw, deposit, etc.
+ 4. When a transaction is selected, the program uses a function to comply with the user's request and performes the task.
+ 5. User is asked if they need another transaction or if not, the user has an option to quit.
+  a. The user is taken back to the sub-account screen, user can select other account or choose to quit.
+ 6. If user quits, then the program goes back to initial screen asking for account number and PIN.
+ 7. Program uses lots of "try and catch" methods to make sure the program does not end in error if user enters wrong account name/pin or
+    makes a wrong choice.
+ 
+ 
+ Things to improve:
+ 
+ 1. The length of the code is too long. Need to shorten the code.
+ 2. The Account and PIN are in a vector and we know their locations in the vector. Program would be more effecient if we could traverse
+    through the vector looking for account numbers and their corresponding PINs.
+ 3. The program has no way to add more account number/pins.
+ 4. 
