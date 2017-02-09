@@ -1,4 +1,8 @@
-#include "std_lib_facilities.h"
+#include <iostream>
+#include <vector>
+#include <limits>
+using namespace std;
+
 class Bad_account{};
 class Bad_pin{};
 class Bad_selection{};
